@@ -15,18 +15,6 @@ This a design of a digital integrated circuit using Cadence Software. The idea i
 -MMMC is a file for a corner description -X-FAB file is the technology that was used to synthesize
 About
 
-The design of this digital integrated circuit can be divided into the following stages:
-1. Writing the device's program code;
-2. Modeling at the functional level;
-3. The synthesis of software code for a given library of digital cells;
-4. Modeling at the library cell level;
-5. Designing the topology and export data;
-6. Modeling topology-aware;
-7. Import to Virtuoso;
-8. Verification device
-
-
-
     Create a file to perform logic synthesis, in this coursework (Cadence RTL complier was used) and in the software run the script " FDHT_synth.tcl ".
 
     To check timing and area reports for typical, slow and fast corners, it is required to create a folder to save the timing diagrams, then you may run the " FDHT_synth.tcl ", " FDHT_synth_slow.tcl, " FDHT_synth_fast.tcl” to see the reports for different corners.
