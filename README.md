@@ -2,9 +2,9 @@
 
 This a design of a digital integrated circuit using Cadence Software. The idea is to get a Hilbert Frequency Domain Transformer.
 
-    DFHT.sdc is the design constraint file that defines the clock frequency and uncertainty.
 
--DFHT.v is the top verilog module f the system that was previously design.
+-    DFHT.sdc is the design constraint file that defines the clock frequency and uncertainty.
+- DFHT.v is the top verilog module f the system that was previously design.
 
 
 -DFHT_tb is the test bench. (No synthethizable) 
